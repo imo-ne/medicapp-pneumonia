@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+/package-lock.json
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Secrets
+.env
+.env.local
+
+# Dataset and trained models (too big for the repo: see README / Releases)
+pneumo/data/
+*.keras
+*.h5
+
+# Local test data from the app
+MedicAppBackend/uploads/
+MedicAppBackend/*.db
+
+# Debug scripts with test credentials
+MedicAppBackend/scripts/generate_token.js
+MedicAppBackend/scripts/debug_rerun.js
+
+# Reports (the sample in docs/ is kept)
+/*.pdf
+
+# OS
+Thumbs.db
+Desktop.ini
