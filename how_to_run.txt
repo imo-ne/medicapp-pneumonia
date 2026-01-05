@@ -1,0 +1,4 @@
+uvicorn api:app --host 127.0.0.1 --port 8000 --reload
+npm run dev
+npm expo start /or/ npm start
+change in api.js in the MedicApp the IP@ according to your machine api by using the ipconfig if windows, or ifconfig in linux
